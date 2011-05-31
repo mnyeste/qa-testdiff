@@ -1,421 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testrun name="cdv2" project="cdv2" tests="1615" started="93" failures="11" errors="0" ignored="0">
-  <testsuite name="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" time="3.958">
-    <testcase name="testAll" classname="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" time="2.208"/>
-    <testcase name="testUserNewTradeMessage" classname="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" time="0.593"/>
-    <testcase name="testUserNewTradeMessageWithSelector" classname="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" time="0.562"/>
-    <testcase name="testModifySelector" classname="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" time="0.59"/>
-    <testcase name="testdecodeMessage" classname="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" time="0.003"/>
-    <testcase name="testEncodeDecodeList" classname="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" time="0.003"/>
+<testrun name="cdv2" project="cdv2" tests="1615" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" incomplete="true">
+    <testcase name="testAll" classname="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" incomplete="true"/>
+    <testcase name="testUserNewTradeMessage" classname="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" incomplete="true"/>
+    <testcase name="testUserNewTradeMessageWithSelector" classname="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" incomplete="true"/>
+    <testcase name="testModifySelector" classname="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" incomplete="true"/>
+    <testcase name="testdecodeMessage" classname="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" incomplete="true"/>
+    <testcase name="testEncodeDecodeList" classname="com.baxter.cdv2.util.TestUserOrderManipulationTopicManager" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cdv2.standalone.me.TestSpread" time="0.002">
-    <testcase name="testsplitSpread" classname="com.baxter.cdv2.standalone.me.TestSpread" time="0.002"/>
+  <testsuite name="com.baxter.cdv2.standalone.me.TestSpread" incomplete="true">
+    <testcase name="testsplitSpread" classname="com.baxter.cdv2.standalone.me.TestSpread" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cme.cmemdp.cmemessages.TestTradingDayTimetable" time="0.016">
-    <testcase name="testConstructBody" classname="com.baxter.cme.cmemdp.cmemessages.TestTradingDayTimetable" time="0.006"/>
-    <testcase name="testConstructMsg" classname="com.baxter.cme.cmemdp.cmemessages.TestTradingDayTimetable" time="0.003"/>
-    <testcase name="testInstrumentStatus" classname="com.baxter.cme.cmemdp.cmemessages.TestTradingDayTimetable" time="0.003"/>
-    <testcase name="testParseBody" classname="com.baxter.cme.cmemdp.cmemessages.TestTradingDayTimetable" time="0.004"/>
+  <testsuite name="com.baxter.cme.cmemdp.cmemessages.TestTradingDayTimetable" incomplete="true">
+    <testcase name="testConstructBody" classname="com.baxter.cme.cmemdp.cmemessages.TestTradingDayTimetable" incomplete="true"/>
+    <testcase name="testConstructMsg" classname="com.baxter.cme.cmemdp.cmemessages.TestTradingDayTimetable" incomplete="true"/>
+    <testcase name="testInstrumentStatus" classname="com.baxter.cme.cmemdp.cmemessages.TestTradingDayTimetable" incomplete="true"/>
+    <testcase name="testParseBody" classname="com.baxter.cme.cmemdp.cmemessages.TestTradingDayTimetable" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="155.148">
-    <testcase name="testGetPhillipOrderTypes" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="1.745"/>
-    <testcase name="testChangePassword2" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="33.052">
-      <failure>
-        <expected>-105</expected>
-        <actual>-1</actual>junit.framework.ComparisonFailure: null expected:&lt;-1[05]&gt; but was:&lt;-1[]&gt;
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at junit.framework.Assert.assertEquals(Assert.java:87)
-	at com.baxter.cdv2.servlet.phillip._TestPhillipCommunication.testChangePassword2(_TestPhillipCommunication.java:88)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at junit.framework.TestCase.runTest(TestCase.java:168)
-	at junit.framework.TestCase.runBare(TestCase.java:134)
-	at junit.framework.TestResult$1.protect(TestResult.java:110)
-	at junit.framework.TestResult.runProtected(TestResult.java:128)
-	at junit.framework.TestResult.run(TestResult.java:113)
-	at junit.framework.TestCase.run(TestCase.java:124)
-	at junit.framework.TestSuite.runTest(TestSuite.java:243)
-	at junit.framework.TestSuite.run(TestSuite.java:238)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-
-</failure>
-    </testcase>
-    <testcase name="testChangePassword" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="14.92">
-      <failure>
-        <expected>-105</expected>
-        <actual>-101</actual>junit.framework.ComparisonFailure: null expected:&lt;-10[5]&gt; but was:&lt;-10[1]&gt;
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at junit.framework.Assert.assertEquals(Assert.java:87)
-	at com.baxter.cdv2.servlet.phillip._TestPhillipCommunication.testChangePassword(_TestPhillipCommunication.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at junit.framework.TestCase.runTest(TestCase.java:168)
-	at junit.framework.TestCase.runBare(TestCase.java:134)
-	at junit.framework.TestResult$1.protect(TestResult.java:110)
-	at junit.framework.TestResult.runProtected(TestResult.java:128)
-	at junit.framework.TestResult.run(TestResult.java:113)
-	at junit.framework.TestCase.run(TestCase.java:124)
-	at junit.framework.TestSuite.runTest(TestSuite.java:243)
-	at junit.framework.TestSuite.run(TestSuite.java:238)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-
-</failure>
-    </testcase>
-    <testcase name="testLoginToPhillip" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="3.527">
-      <failure>junit.framework.AssertionFailedError: testLoginToPhillip() failed. java.lang.NullPointerException
-	at junit.framework.Assert.fail(Assert.java:47)
-	at com.baxter.cdv2.servlet.phillip._TestPhillipCommunication.testLoginToPhillip(_TestPhillipCommunication.java:134)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at junit.framework.TestCase.runTest(TestCase.java:168)
-	at junit.framework.TestCase.runBare(TestCase.java:134)
-	at junit.framework.TestResult$1.protect(TestResult.java:110)
-	at junit.framework.TestResult.runProtected(TestResult.java:128)
-	at junit.framework.TestResult.run(TestResult.java:113)
-	at junit.framework.TestCase.run(TestCase.java:124)
-	at junit.framework.TestSuite.runTest(TestSuite.java:243)
-	at junit.framework.TestSuite.run(TestSuite.java:238)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-
-</failure>
-    </testcase>
-    <testcase name="testPlaceAnOrderToPhillip" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="43.528">
-      <failure>junit.framework.AssertionFailedError: testLoginToPhillip() failed. com.baxter.cdv2.exception.CDv2ServletV17Exception: -101 : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) .Net SqlClient Data Provider
-	at junit.framework.Assert.fail(Assert.java:47)
-	at com.baxter.cdv2.servlet.phillip._TestPhillipCommunication.testPlaceAnOrderToPhillip(_TestPhillipCommunication.java:168)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at junit.framework.TestCase.runTest(TestCase.java:168)
-	at junit.framework.TestCase.runBare(TestCase.java:134)
-	at junit.framework.TestResult$1.protect(TestResult.java:110)
-	at junit.framework.TestResult.runProtected(TestResult.java:128)
-	at junit.framework.TestResult.run(TestResult.java:113)
-	at junit.framework.TestCase.run(TestCase.java:124)
-	at junit.framework.TestSuite.runTest(TestSuite.java:243)
-	at junit.framework.TestSuite.run(TestSuite.java:238)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-
-</failure>
-    </testcase>
-    <testcase name="testPlaceAnOrderToPhillipOCO" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="1.506">
-      <failure>junit.framework.AssertionFailedError: testLoginToPhillip() failed. com.baxter.cdv2.exception.CDv2ServletV17Exception: -101 : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) .Net SqlClient Data Provider
-	at junit.framework.Assert.fail(Assert.java:47)
-	at com.baxter.cdv2.servlet.phillip._TestPhillipCommunication.testPlaceAnOrderToPhillipOCO(_TestPhillipCommunication.java:191)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at junit.framework.TestCase.runTest(TestCase.java:168)
-	at junit.framework.TestCase.runBare(TestCase.java:134)
-	at junit.framework.TestResult$1.protect(TestResult.java:110)
-	at junit.framework.TestResult.runProtected(TestResult.java:128)
-	at junit.framework.TestResult.run(TestResult.java:113)
-	at junit.framework.TestCase.run(TestCase.java:124)
-	at junit.framework.TestSuite.runTest(TestSuite.java:243)
-	at junit.framework.TestSuite.run(TestSuite.java:238)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-
-</failure>
-    </testcase>
-    <testcase name="testWithdrawClientRiskInfoGood" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="1.427">
-      <failure>junit.framework.AssertionFailedError: testWithdrawClientRiskInfoGood() failed. com.baxter.cdv2.exception.CDv2ServletV17Exception: -101 : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) .Net SqlClient Data Provider
-	at junit.framework.Assert.fail(Assert.java:47)
-	at com.baxter.cdv2.servlet.phillip._TestPhillipCommunication.testWithdrawClientRiskInfoGood(_TestPhillipCommunication.java:221)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at junit.framework.TestCase.runTest(TestCase.java:168)
-	at junit.framework.TestCase.runBare(TestCase.java:134)
-	at junit.framework.TestResult$1.protect(TestResult.java:110)
-	at junit.framework.TestResult.runProtected(TestResult.java:128)
-	at junit.framework.TestResult.run(TestResult.java:113)
-	at junit.framework.TestCase.run(TestCase.java:124)
-	at junit.framework.TestSuite.runTest(TestSuite.java:243)
-	at junit.framework.TestSuite.run(TestSuite.java:238)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-
-</failure>
-    </testcase>
-    <testcase name="testWithdrawClientRiskInfoBad" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="1.413">
-      <failure>
-        <expected>-104</expected>
-        <actual>-101</actual>junit.framework.ComparisonFailure: ErrorNo:  expected:&lt;-10[4]&gt; but was:&lt;-10[1]&gt;
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at com.baxter.cdv2.servlet.phillip._TestPhillipCommunication.testWithdrawClientRiskInfoBad(_TestPhillipCommunication.java:234)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at junit.framework.TestCase.runTest(TestCase.java:168)
-	at junit.framework.TestCase.runBare(TestCase.java:134)
-	at junit.framework.TestResult$1.protect(TestResult.java:110)
-	at junit.framework.TestResult.runProtected(TestResult.java:128)
-	at junit.framework.TestResult.run(TestResult.java:113)
-	at junit.framework.TestCase.run(TestCase.java:124)
-	at junit.framework.TestSuite.runTest(TestSuite.java:243)
-	at junit.framework.TestSuite.run(TestSuite.java:238)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-
-</failure>
-    </testcase>
-    <testcase name="testFetchClientFinSummaryGood" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="1.627">
-      <failure>junit.framework.AssertionFailedError: testFetchClientFinSummary() failed. com.baxter.cdv2.exception.CDv2ServletV17Exception: &lt;POEMSAPI xmlns=""&gt;&lt;RESULT&gt;Errors Found&lt;/RESULT&gt;&lt;ERRORS&gt;&lt;ERRNO&gt;-101&lt;/ERRNO&gt;&lt;ERRDESC&gt;A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server).Net SqlClient Data Provider&lt;/ERRDESC&gt;&lt;/ERRORS&gt;&lt;/POEMSAPI&gt;
-	at junit.framework.Assert.fail(Assert.java:47)
-	at com.baxter.cdv2.servlet.phillip._TestPhillipCommunication.testFetchClientFinSummaryGood(_TestPhillipCommunication.java:267)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at junit.framework.TestCase.runTest(TestCase.java:168)
-	at junit.framework.TestCase.runBare(TestCase.java:134)
-	at junit.framework.TestResult$1.protect(TestResult.java:110)
-	at junit.framework.TestResult.runProtected(TestResult.java:128)
-	at junit.framework.TestResult.run(TestResult.java:113)
-	at junit.framework.TestCase.run(TestCase.java:124)
-	at junit.framework.TestSuite.runTest(TestSuite.java:243)
-	at junit.framework.TestSuite.run(TestSuite.java:238)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-
-</failure>
-    </testcase>
-    <testcase name="testFetchClientFinSummaryBad" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="1.805"/>
-    <testcase name="testGetLivePotInformationFromPhillip" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="44.717">
-      <failure>
-        <expected>-102</expected>
-        <actual>-101</actual>junit.framework.ComparisonFailure: ErrorNo:  expected:&lt;-10[2]&gt; but was:&lt;-10[1]&gt;
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at com.baxter.cdv2.servlet.phillip._TestPhillipCommunication.testGetLivePotInformationFromPhillip(_TestPhillipCommunication.java:301)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at junit.framework.TestCase.runTest(TestCase.java:168)
-	at junit.framework.TestCase.runBare(TestCase.java:134)
-	at junit.framework.TestResult$1.protect(TestResult.java:110)
-	at junit.framework.TestResult.runProtected(TestResult.java:128)
-	at junit.framework.TestResult.run(TestResult.java:113)
-	at junit.framework.TestCase.run(TestCase.java:124)
-	at junit.framework.TestSuite.runTest(TestSuite.java:243)
-	at junit.framework.TestSuite.run(TestSuite.java:238)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-
-</failure>
-    </testcase>
-    <testcase name="testGetOpenPositionsFromPhillip" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="1.495">
-      <failure>junit.framework.AssertionFailedError: testGetOpenPositionsFromPhillip() failed. com.baxter.cdv2.exception.CDv2ServletV17Exception: &lt;POEMSAPI xmlns=""&gt;&lt;RESULT&gt;Errors Found&lt;/RESULT&gt;&lt;ERRORS&gt;&lt;ERRNO&gt;-101&lt;/ERRNO&gt;&lt;ERRDESC&gt;A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server).Net SqlClient Data Provider&lt;/ERRDESC&gt;&lt;/ERRORS&gt;&lt;/POEMSAPI&gt;
-	at junit.framework.Assert.fail(Assert.java:47)
-	at com.baxter.cdv2.servlet.phillip._TestPhillipCommunication.testGetOpenPositionsFromPhillip(_TestPhillipCommunication.java:331)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at junit.framework.TestCase.runTest(TestCase.java:168)
-	at junit.framework.TestCase.runBare(TestCase.java:134)
-	at junit.framework.TestResult$1.protect(TestResult.java:110)
-	at junit.framework.TestResult.runProtected(TestResult.java:128)
-	at junit.framework.TestResult.run(TestResult.java:113)
-	at junit.framework.TestCase.run(TestCase.java:124)
-	at junit.framework.TestSuite.runTest(TestSuite.java:243)
-	at junit.framework.TestSuite.run(TestSuite.java:238)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-
-</failure>
-    </testcase>
-    <testcase name="testSendTradeToPhillip" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="1.435">
-      <failure>junit.framework.AssertionFailedError: testWithdrawClientRiskInfoGood() failed. com.baxter.cdv2.exception.CDv2ServletV17Exception: -101 : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) .Net SqlClient Data Provider
-	at junit.framework.Assert.fail(Assert.java:47)
-	at com.baxter.cdv2.servlet.phillip._TestPhillipCommunication.testSendTradeToPhillip(_TestPhillipCommunication.java:365)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at junit.framework.TestCase.runTest(TestCase.java:168)
-	at junit.framework.TestCase.runBare(TestCase.java:134)
-	at junit.framework.TestResult$1.protect(TestResult.java:110)
-	at junit.framework.TestResult.runProtected(TestResult.java:128)
-	at junit.framework.TestResult.run(TestResult.java:113)
-	at junit.framework.TestCase.run(TestCase.java:124)
-	at junit.framework.TestSuite.runTest(TestSuite.java:243)
-	at junit.framework.TestSuite.run(TestSuite.java:238)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-
-</failure>
-    </testcase>
-    <testcase name="testParalel" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" time="2.949"/>
+  <testsuite name="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true">
+    <testcase name="testGetPhillipOrderTypes" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
+    <testcase name="testChangePassword2" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
+    <testcase name="testChangePassword" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
+    <testcase name="testLoginToPhillip" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
+    <testcase name="testPlaceAnOrderToPhillip" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
+    <testcase name="testPlaceAnOrderToPhillipOCO" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
+    <testcase name="testWithdrawClientRiskInfoGood" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
+    <testcase name="testWithdrawClientRiskInfoBad" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
+    <testcase name="testFetchClientFinSummaryGood" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
+    <testcase name="testFetchClientFinSummaryBad" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
+    <testcase name="testGetLivePotInformationFromPhillip" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
+    <testcase name="testGetOpenPositionsFromPhillip" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
+    <testcase name="testSendTradeToPhillip" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
+    <testcase name="testParalel" classname="com.baxter.cdv2.servlet.phillip._TestPhillipCommunication" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cdv2.datatype.message.TestMENewOrderMessageBody" time="0.001">
-    <testcase name="testencode" classname="com.baxter.cdv2.datatype.message.TestMENewOrderMessageBody" time="0.001"/>
+  <testsuite name="com.baxter.cdv2.datatype.message.TestMENewOrderMessageBody" incomplete="true">
+    <testcase name="testencode" classname="com.baxter.cdv2.datatype.message.TestMENewOrderMessageBody" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cdtradesupervisor.TestChangeManualFlag" time="0.001">
-    <testcase name="testChangeManualFlag" classname="com.baxter.cdtradesupervisor.TestChangeManualFlag" time="0.001"/>
+  <testsuite name="com.baxter.cdtradesupervisor.TestChangeManualFlag" incomplete="true">
+    <testcase name="testChangeManualFlag" classname="com.baxter.cdtradesupervisor.TestChangeManualFlag" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cdv2.util.TestDBConnectionHandler" time="0.014">
-    <testcase name="testPop" classname="com.baxter.cdv2.util.TestDBConnectionHandler" time="0.008"/>
-    <testcase name="testPush" classname="com.baxter.cdv2.util.TestDBConnectionHandler" time="0.006"/>
+  <testsuite name="com.baxter.cdv2.util.TestDBConnectionHandler" incomplete="true">
+    <testcase name="testPop" classname="com.baxter.cdv2.util.TestDBConnectionHandler" incomplete="true"/>
+    <testcase name="testPush" classname="com.baxter.cdv2.util.TestDBConnectionHandler" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.fix.fixmessagesv42.TestOrderCancelReplaceRequest" time="0.099">
-    <testcase name="testConstructBody" classname="com.baxter.fix.fixmessagesv42.TestOrderCancelReplaceRequest" time="0.029"/>
-    <testcase name="testParseGoodMsg_STOP" classname="com.baxter.fix.fixmessagesv42.TestOrderCancelReplaceRequest" time="0.004"/>
-    <testcase name="testParseGoodMsg_LIMIT" classname="com.baxter.fix.fixmessagesv42.TestOrderCancelReplaceRequest" time="0.002"/>
-    <testcase name="testParseBadMsg_STOP" classname="com.baxter.fix.fixmessagesv42.TestOrderCancelReplaceRequest" time="0.035"/>
-    <testcase name="testParseBadMsg_LIMIT" classname="com.baxter.fix.fixmessagesv42.TestOrderCancelReplaceRequest" time="0.029"/>
+  <testsuite name="com.baxter.fix.fixmessagesv42.TestOrderCancelReplaceRequest" incomplete="true">
+    <testcase name="testConstructBody" classname="com.baxter.fix.fixmessagesv42.TestOrderCancelReplaceRequest" incomplete="true"/>
+    <testcase name="testParseGoodMsg_STOP" classname="com.baxter.fix.fixmessagesv42.TestOrderCancelReplaceRequest" incomplete="true"/>
+    <testcase name="testParseGoodMsg_LIMIT" classname="com.baxter.fix.fixmessagesv42.TestOrderCancelReplaceRequest" incomplete="true"/>
+    <testcase name="testParseBadMsg_STOP" classname="com.baxter.fix.fixmessagesv42.TestOrderCancelReplaceRequest" incomplete="true"/>
+    <testcase name="testParseBadMsg_LIMIT" classname="com.baxter.fix.fixmessagesv42.TestOrderCancelReplaceRequest" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.fix.fixmessagesv44.TestQuoteStatusReport" time="0.007">
-    <testcase name="testConstructBody" classname="com.baxter.fix.fixmessagesv44.TestQuoteStatusReport" time="0.003"/>
-    <testcase name="testParseGoodMsg" classname="com.baxter.fix.fixmessagesv44.TestQuoteStatusReport" time="0.003"/>
-    <testcase name="testParseHeartBeatMsg" classname="com.baxter.fix.fixmessagesv44.TestQuoteStatusReport" time="0.001"/>
+  <testsuite name="com.baxter.fix.fixmessagesv44.TestQuoteStatusReport" incomplete="true">
+    <testcase name="testConstructBody" classname="com.baxter.fix.fixmessagesv44.TestQuoteStatusReport" incomplete="true"/>
+    <testcase name="testParseGoodMsg" classname="com.baxter.fix.fixmessagesv44.TestQuoteStatusReport" incomplete="true"/>
+    <testcase name="testParseHeartBeatMsg" classname="com.baxter.fix.fixmessagesv44.TestQuoteStatusReport" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cdv2.standalone.mm.TestDOCComponent" time="3.258">
-    <testcase name="testgetReutersCodeFromCcyPair" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" time="0.034"/>
-    <testcase name="testSendTradeToDOC" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" time="1.049"/>
-    <testcase name="testNotifierThreadTimeOut" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" time="1.507"/>
-    <testcase name="testProcessFXRate" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" time="0.11"/>
-    <testcase name="testProcessQuote" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" time="0.165"/>
-    <testcase name="testProcessPriceUpdate" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" time="0.018"/>
-    <testcase name="testprocessSpotPriceObject" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" time="0.017"/>
-    <testcase name="testOnRate" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" time="0.038"/>
-    <testcase name="testsetUpSpotQuantitiesFromDB" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" time="0.05"/>
-    <testcase name="testgetSpotQuantity" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" time="0.011"/>
-    <testcase name="testOnExecutionReport" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" time="0.253"/>
-    <testcase name="testtestGetPriceWrapper" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" time="0.005"/>
+  <testsuite name="com.baxter.cdv2.standalone.mm.TestDOCComponent" incomplete="true">
+    <testcase name="testgetReutersCodeFromCcyPair" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" incomplete="true"/>
+    <testcase name="testSendTradeToDOC" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" incomplete="true"/>
+    <testcase name="testNotifierThreadTimeOut" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" incomplete="true"/>
+    <testcase name="testProcessFXRate" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" incomplete="true"/>
+    <testcase name="testProcessQuote" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" incomplete="true"/>
+    <testcase name="testProcessPriceUpdate" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" incomplete="true"/>
+    <testcase name="testprocessSpotPriceObject" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" incomplete="true"/>
+    <testcase name="testOnRate" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" incomplete="true"/>
+    <testcase name="testsetUpSpotQuantitiesFromDB" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" incomplete="true"/>
+    <testcase name="testgetSpotQuantity" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" incomplete="true"/>
+    <testcase name="testOnExecutionReport" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" incomplete="true"/>
+    <testcase name="testtestGetPriceWrapper" classname="com.baxter.cdv2.standalone.mm.TestDOCComponent" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cme.cmemdp.cmemessages.TestMarketSheet" time="0.011">
-    <testcase name="testConstructBody" classname="com.baxter.cme.cmemdp.cmemessages.TestMarketSheet" time="0.004"/>
-    <testcase name="testConstructMsg" classname="com.baxter.cme.cmemdp.cmemessages.TestMarketSheet" time="0.002"/>
-    <testcase name="testInstrumentStatus" classname="com.baxter.cme.cmemdp.cmemessages.TestMarketSheet" time="0.003"/>
-    <testcase name="testParseBody" classname="com.baxter.cme.cmemdp.cmemessages.TestMarketSheet" time="0.002"/>
+  <testsuite name="com.baxter.cme.cmemdp.cmemessages.TestMarketSheet" incomplete="true">
+    <testcase name="testConstructBody" classname="com.baxter.cme.cmemdp.cmemessages.TestMarketSheet" incomplete="true"/>
+    <testcase name="testConstructMsg" classname="com.baxter.cme.cmemdp.cmemessages.TestMarketSheet" incomplete="true"/>
+    <testcase name="testInstrumentStatus" classname="com.baxter.cme.cmemdp.cmemessages.TestMarketSheet" incomplete="true"/>
+    <testcase name="testParseBody" classname="com.baxter.cme.cmemdp.cmemessages.TestMarketSheet" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cme.cmemdp.cmemessages.TestPrice" time="0.008">
-    <testcase name="testConstructBody" classname="com.baxter.cme.cmemdp.cmemessages.TestPrice" time="0.003"/>
-    <testcase name="testConstructMsg" classname="com.baxter.cme.cmemdp.cmemessages.TestPrice" time="0.002"/>
-    <testcase name="testInstrumentStatus" classname="com.baxter.cme.cmemdp.cmemessages.TestPrice" time="0.002"/>
-    <testcase name="testParseBody" classname="com.baxter.cme.cmemdp.cmemessages.TestPrice" time="0.001"/>
+  <testsuite name="com.baxter.cme.cmemdp.cmemessages.TestPrice" incomplete="true">
+    <testcase name="testConstructBody" classname="com.baxter.cme.cmemdp.cmemessages.TestPrice" incomplete="true"/>
+    <testcase name="testConstructMsg" classname="com.baxter.cme.cmemdp.cmemessages.TestPrice" incomplete="true"/>
+    <testcase name="testInstrumentStatus" classname="com.baxter.cme.cmemdp.cmemessages.TestPrice" incomplete="true"/>
+    <testcase name="testParseBody" classname="com.baxter.cme.cmemdp.cmemessages.TestPrice" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.fix.fixmessagescommon.TestTradingSessionStatus" time="0.013">
-    <testcase name="testConstructBody" classname="com.baxter.fix.fixmessagescommon.TestTradingSessionStatus" time="0.003"/>
-    <testcase name="testParseGoodMsg" classname="com.baxter.fix.fixmessagescommon.TestTradingSessionStatus" time="0.003"/>
-    <testcase name="testParseBadMsg" classname="com.baxter.fix.fixmessagescommon.TestTradingSessionStatus" time="0.007"/>
+  <testsuite name="com.baxter.fix.fixmessagescommon.TestTradingSessionStatus" incomplete="true">
+    <testcase name="testConstructBody" classname="com.baxter.fix.fixmessagescommon.TestTradingSessionStatus" incomplete="true"/>
+    <testcase name="testParseGoodMsg" classname="com.baxter.fix.fixmessagescommon.TestTradingSessionStatus" incomplete="true"/>
+    <testcase name="testParseBadMsg" classname="com.baxter.fix.fixmessagescommon.TestTradingSessionStatus" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cdv2.datatype.message.TestHeartBeatMessageBody" time="0.002">
-    <testcase name="testEncode" classname="com.baxter.cdv2.datatype.message.TestHeartBeatMessageBody" time="0.002"/>
+  <testsuite name="com.baxter.cdv2.datatype.message.TestHeartBeatMessageBody" incomplete="true">
+    <testcase name="testEncode" classname="com.baxter.cdv2.datatype.message.TestHeartBeatMessageBody" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cme.cmemdp.cmemessages.TestEndOfInstrumentRefBroadcasting" time="0.004">
-    <testcase name="testConstructBody" classname="com.baxter.cme.cmemdp.cmemessages.TestEndOfInstrumentRefBroadcasting" time="0.002"/>
-    <testcase name="testConstructMsg" classname="com.baxter.cme.cmemdp.cmemessages.TestEndOfInstrumentRefBroadcasting" time="0.001"/>
-    <testcase name="testInstrumentStatus" classname="com.baxter.cme.cmemdp.cmemessages.TestEndOfInstrumentRefBroadcasting" time="0.001"/>
-    <testcase name="testParseBody" classname="com.baxter.cme.cmemdp.cmemessages.TestEndOfInstrumentRefBroadcasting" time="0.0"/>
+  <testsuite name="com.baxter.cme.cmemdp.cmemessages.TestEndOfInstrumentRefBroadcasting" incomplete="true">
+    <testcase name="testConstructBody" classname="com.baxter.cme.cmemdp.cmemessages.TestEndOfInstrumentRefBroadcasting" incomplete="true"/>
+    <testcase name="testConstructMsg" classname="com.baxter.cme.cmemdp.cmemessages.TestEndOfInstrumentRefBroadcasting" incomplete="true"/>
+    <testcase name="testInstrumentStatus" classname="com.baxter.cme.cmemdp.cmemessages.TestEndOfInstrumentRefBroadcasting" incomplete="true"/>
+    <testcase name="testParseBody" classname="com.baxter.cme.cmemdp.cmemessages.TestEndOfInstrumentRefBroadcasting" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cdv2.standalone.alfa8.TestA8OrderStatusProcessor" time="0.635">
-    <testcase name="testGetOrderByOrderIDFromCancelled" classname="com.baxter.cdv2.standalone.alfa8.TestA8OrderStatusProcessor" time="0.373"/>
-    <testcase name="testGetOrderByOrderIDFromFilled" classname="com.baxter.cdv2.standalone.alfa8.TestA8OrderStatusProcessor" time="0.025"/>
-    <testcase name="testGetOrderByOrderIDFromLive" classname="com.baxter.cdv2.standalone.alfa8.TestA8OrderStatusProcessor" time="0.163"/>
-    <testcase name="testGetOrderStatusFromPendingAndRejected" classname="com.baxter.cdv2.standalone.alfa8.TestA8OrderStatusProcessor" time="0.074"/>
+  <testsuite name="com.baxter.cdv2.standalone.alfa8.TestA8OrderStatusProcessor" incomplete="true">
+    <testcase name="testGetOrderByOrderIDFromCancelled" classname="com.baxter.cdv2.standalone.alfa8.TestA8OrderStatusProcessor" incomplete="true"/>
+    <testcase name="testGetOrderByOrderIDFromFilled" classname="com.baxter.cdv2.standalone.alfa8.TestA8OrderStatusProcessor" incomplete="true"/>
+    <testcase name="testGetOrderByOrderIDFromLive" classname="com.baxter.cdv2.standalone.alfa8.TestA8OrderStatusProcessor" incomplete="true"/>
+    <testcase name="testGetOrderStatusFromPendingAndRejected" classname="com.baxter.cdv2.standalone.alfa8.TestA8OrderStatusProcessor" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cdv2.util.TestParseTemplate" time="0.007">
-    <testcase name="testParse" classname="com.baxter.cdv2.util.TestParseTemplate" time="0.007"/>
+  <testsuite name="com.baxter.cdv2.util.TestParseTemplate" incomplete="true">
+    <testcase name="testParse" classname="com.baxter.cdv2.util.TestParseTemplate" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.fix.fixmessagesv42.TestQuoteRequestForBAR" time="0.013">
-    <testcase name="testParseGoodMsgWithoutSide" classname="com.baxter.fix.fixmessagesv42.TestQuoteRequestForBAR" time="0.004"/>
-    <testcase name="testParseBadMsgWithoutSide" classname="com.baxter.fix.fixmessagesv42.TestQuoteRequestForBAR" time="0.005"/>
-    <testcase name="testParseGoodMsgWithSide" classname="com.baxter.fix.fixmessagesv42.TestQuoteRequestForBAR" time="0.002"/>
-    <testcase name="testConstructBodyWithSide" classname="com.baxter.fix.fixmessagesv42.TestQuoteRequestForBAR" time="0.0"/>
-    <testcase name="testConstructBodyMinimal" classname="com.baxter.fix.fixmessagesv42.TestQuoteRequestForBAR" time="0.001"/>
+  <testsuite name="com.baxter.fix.fixmessagesv42.TestQuoteRequestForBAR" incomplete="true">
+    <testcase name="testParseGoodMsgWithoutSide" classname="com.baxter.fix.fixmessagesv42.TestQuoteRequestForBAR" incomplete="true"/>
+    <testcase name="testParseBadMsgWithoutSide" classname="com.baxter.fix.fixmessagesv42.TestQuoteRequestForBAR" incomplete="true"/>
+    <testcase name="testParseGoodMsgWithSide" classname="com.baxter.fix.fixmessagesv42.TestQuoteRequestForBAR" incomplete="true"/>
+    <testcase name="testConstructBodyWithSide" classname="com.baxter.fix.fixmessagesv42.TestQuoteRequestForBAR" incomplete="true"/>
+    <testcase name="testConstructBodyMinimal" classname="com.baxter.fix.fixmessagesv42.TestQuoteRequestForBAR" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.cdv2.servlet.TestPlainOutputter" time="0.061">
-    <testcase name="testTVSubRecord_PDA" classname="com.baxter.cdv2.servlet.TestPlainOutputter" time="0.018"/>
-    <testcase name="testslitPrice" classname="com.baxter.cdv2.servlet.TestPlainOutputter" time="0.001"/>
-    <testcase name="testOBHeader" classname="com.baxter.cdv2.servlet.TestPlainOutputter" time="0.001"/>
-    <testcase name="testaddSpreadToPDAMarketView" classname="com.baxter.cdv2.servlet.TestPlainOutputter" time="0.008"/>
-    <testcase name="testbuildOrderBookOutput" classname="com.baxter.cdv2.servlet.TestPlainOutputter" time="0.023"/>
-    <testcase name="testbuildOnLineTradeHistoryOutput" classname="com.baxter.cdv2.servlet.TestPlainOutputter" time="0.002"/>
-    <testcase name="testbuildSSLContractSpecRecord" classname="com.baxter.cdv2.servlet.TestPlainOutputter" time="0.002"/>
-    <testcase name="testbuildSSLContractSpecOutput" classname="com.baxter.cdv2.servlet.TestPlainOutputter" time="0.001"/>
-    <testcase name="testbuildMarketViewOutput_EBS" classname="com.baxter.cdv2.servlet.TestPlainOutputter" time="0.002"/>
-    <testcase name="testbuildDOMOrderOutputForEBS" classname="com.baxter.cdv2.servlet.TestPlainOutputter" time="0.002"/>
+  <testsuite name="com.baxter.cdv2.servlet.TestPlainOutputter" incomplete="true">
+    <testcase name="testTVSubRecord_PDA" classname="com.baxter.cdv2.servlet.TestPlainOutputter" incomplete="true"/>
+    <testcase name="testslitPrice" classname="com.baxter.cdv2.servlet.TestPlainOutputter" incomplete="true"/>
+    <testcase name="testOBHeader" classname="com.baxter.cdv2.servlet.TestPlainOutputter" incomplete="true"/>
+    <testcase name="testaddSpreadToPDAMarketView" classname="com.baxter.cdv2.servlet.TestPlainOutputter" incomplete="true"/>
+    <testcase name="testbuildOrderBookOutput" classname="com.baxter.cdv2.servlet.TestPlainOutputter" incomplete="true"/>
+    <testcase name="testbuildOnLineTradeHistoryOutput" classname="com.baxter.cdv2.servlet.TestPlainOutputter" incomplete="true"/>
+    <testcase name="testbuildSSLContractSpecRecord" classname="com.baxter.cdv2.servlet.TestPlainOutputter" incomplete="true"/>
+    <testcase name="testbuildSSLContractSpecOutput" classname="com.baxter.cdv2.servlet.TestPlainOutputter" incomplete="true"/>
+    <testcase name="testbuildMarketViewOutput_EBS" classname="com.baxter.cdv2.servlet.TestPlainOutputter" incomplete="true"/>
+    <testcase name="testbuildDOMOrderOutputForEBS" classname="com.baxter.cdv2.servlet.TestPlainOutputter" incomplete="true"/>
   </testsuite>
-  <testsuite name="com.baxter.fix.TestMessageReader" time="4.701">
-    <testcase name="testParse" classname="com.baxter.fix.TestMessageReader" time="1.227"/>
-    <testcase name="testReader_OK" classname="com.baxter.fix.TestMessageReader" time="1.402"/>
-    <testcase name="testReader_SocketError" classname="com.baxter.fix.TestMessageReader" time="0.123"/>
-    <testcase name="testReader_SocketError2" classname="com.baxter.fix.TestMessageReader" time="0.122"/>
-    <testcase name="testLongerMessage" classname="com.baxter.fix.TestMessageReader" time="0.502"/>
-    <testcase name="testShutdown" classname="com.baxter.fix.TestMessageReader" time="0.122"/>
-    <testcase name="testReader_Pause" classname="com.baxter.fix.TestMessageReader" time="1.203"/>
+  <testsuite name="com.baxter.fix.TestMessageReader" incomplete="true">
+    <testcase name="testParse" classname="com.baxter.fix.TestMessageReader" incomplete="true"/>
+    <testcase name="testReader_OK" classname="com.baxter.fix.TestMessageReader" incomplete="true"/>
+    <testcase name="testReader_SocketError" classname="com.baxter.fix.TestMessageReader" incomplete="true"/>
+    <testcase name="testReader_SocketError2" classname="com.baxter.fix.TestMessageReader" incomplete="true"/>
+    <testcase name="testLongerMessage" classname="com.baxter.fix.TestMessageReader" incomplete="true"/>
+    <testcase name="testShutdown" classname="com.baxter.fix.TestMessageReader" incomplete="true"/>
+    <testcase name="testReader_Pause" classname="com.baxter.fix.TestMessageReader" incomplete="true"/>
   </testsuite>
   <testsuite name="com.baxter.cdv2.standalone.me.TestMatchingEngineCasesPartXIII" incomplete="true">
     <testcase name="testPartXIIICase97" classname="com.baxter.cdv2.standalone.me.TestMatchingEngineCasesPartXIII" incomplete="true"/>
