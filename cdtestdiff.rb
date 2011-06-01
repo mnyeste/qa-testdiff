@@ -36,16 +36,19 @@ end
 @log.formatter = proc { |severity, datetime, progname, msg| "#{severity} - #{datetime}: #{msg}\n" }
 @log.level = Logger::INFO
 
-eclipse  = parseXML("data/eclipse")
-surefire =  parseXML("data/surefire")
+folderA = "data/continuous"
+folderB = "data/nightly"
+
+testCasesA  = parseXML(folderA)
+testCasesB =  parseXML(folderB)
 
 @log.info(" --- Processing finished ---")
-@log.info("Eclipse  : #{eclipse.length}")
-@log.info("Surefire : #{surefire.length}")
+@log.info("#{folderA}: #{testCasesA.length}")
+@log.info("#{folderB}: #{testCasesB.length}")
 
-@log.info("--- Run only with Eclipse ---")
-logDifferences(eclipse, surefire)
-@log.info("--- Run only with Surefire ---")
-logDifferences(surefire, eclipse)
+@log.info("--- Present only in #{folderA} ---")
+logDifferences(testCasesA, testCasesB)
+@log.info("--- Present only in #{folderB} ---")
+logDifferences(testCasesB, testCasesA)
 
 @log.close
