@@ -36,8 +36,8 @@ end
 @log.formatter = proc { |severity, datetime, progname, msg| "#{severity} - #{datetime}: #{msg}\n" }
 @log.level = Logger::INFO
 
-folderA = "data/eclipse"
-folderB = "data/surefire"
+folderA = "data/continuous"
+folderB = "data/nightly"
 
 testCasesA  = parseXML(folderA)
 testCasesB =  parseXML(folderB)
